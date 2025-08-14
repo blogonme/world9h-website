@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九鸿国际供应链 - 高效、诚信、繁荣的贸易</title>
+    <meta name="description" content="九鸿国际供应链提供专业的商品贸易服务，连接全球市场，赋能贸易发展">
+    <meta name="keywords" content="国际贸易,供应链,商品贸易,信用证,物流服务">
+    
+    <!-- 内联CSS样式 -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* 头部样式 */
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .nav-menu a:hover {
+            background-color: rgba(255,255,255,0.2);
+        }
+        
+        /* 主要内容区域 */
+        .main-content {
+            margin-top: 80px;
+            padding: 2rem;
+        }
+        
+        /* 英雄区域 */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+            border-radius: 15px;
+            margin-bottom: 3rem;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255,107,107,0.4);
+        }
+        
+        /* 服务区域 */
+        .services {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 0;
+        }
+        
+        .services h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #2a5298;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #2a5298;
+        }
+        
+        /* 统计数据 */
+        .stats {
+            background: #f8f9fa;
+            padding: 3rem 0;
+            margin: 3rem 0;
+        }
+        
+        .stats-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+        
+        .stat-item {
+            padding: 1rem;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        
+        /* 关于我们 */
+        .about {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 0;
+        }
+        
+        .about h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #2a5298;
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .about-text p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .about-image {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 300px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+        
+        /* 联系我们 */
+        .contact {
+            background: #2a5298;
+            color: white;
+            padding: 3rem 0;
+            margin-top: 3rem;
+        }
+        
+        .contact-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .contact-item {
+            padding: 1rem;
+        }
+        
+        .contact-item h3 {
+            margin-bottom: 0.5rem;
+            color: #ff6b6b;
+        }
+        
+        /* 页脚 */
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .nav-menu {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* 动画效果 */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s, transform 0.6s;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header class="header">
+        <div class="header-content">
+            <a href="#" class="logo">九鸿国际供应链</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#services">服务</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主要内容 -->
+    <main class="main-content">
+        <!-- 英雄区域 -->
+        <section id="home" class="hero fade-in">
+            <h1>九鸿国际供应链</h1>
+            <p>高效、诚信、繁荣的贸易伙伴</p>
+            <p>连接全球市场，赋能贸易发展</p>
+            <a href="#contact" class="cta-button">立即咨询</a>
+        </section>
+
+        <!-- 服务区域 -->
+        <section id="services" class="services">
+            <h2 class="fade-in">我们的服务</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">🌍</div>
+                    <h3>国际贸易</h3>
+                    <p>提供专业的商品贸易服务，涵盖各类商品进出口业务</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">💳</div>
+                    <h3>信用证服务</h3>
+                    <p>专业的信用证开立、审核和结算服务</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🚚</div>
+                    <h3>物流配送</h3>
+                    <p>全球物流网络，确保货物安全快速到达</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">📋</div>
+                    <h3>通关服务</h3>
+                    <p>专业的通关代理服务，快速清关</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🔍</div>
+                    <h3>市场调研</h3>
+                    <p>深入的市场分析和商业机会评估</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🤝</div>
+                    <h3>商务咨询</h3>
+                    <p>专业的商务咨询和谈判支持</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 统计数据 -->
+        <section class="stats">
+            <div class="stats-content">
+                <div class="stat-item fade-in">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">客户满意度</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">合作国家</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">成功案例</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">客户支持</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于我们 -->
+        <section id="about" class="about">
+            <h2 class="fade-in">关于我们</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>九鸿国际供应链成立于2010年，是一家专业的国际贸易服务公司。我们致力于为客户提供高效、可靠的供应链解决方案。</p>
+                    <p>我们的团队由经验丰富的国际贸易专家组成，拥有深厚的行业知识和广泛的全球网络。我们与全球50多个国家的合作伙伴建立了长期稳定的合作关系。</p>
+                    <p>我们始终坚持"诚信为本、客户至上"的服务理念，为客户创造价值，实现共赢发展。</p>
+                </div>
+                <div class="about-image fade-in">
+                    <div>全球贸易网络</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系我们 -->
+        <section id="contact" class="contact">
+            <div class="contact-content">
+                <h2 class="fade-in">联系我们</h2>
+                <p>我们期待与您建立合作关系</p>
+                <div class="contact-info">
+                    <div class="contact-item fade-in">
+                        <h3>📧 邮箱</h3>
+                        <p>info@world9h.com</p>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <h3>📞 电话</h3>
+                        <p>+86 400-888-9999</p>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <h3>📍 地址</h3>
+                        <p>中国上海市浦东新区陆家嘴金融贸易区</p>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <h3>⏰ 工作时间</h3>
+                        <p>周一至周五 9:00-18:00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>&copy; 2024 九鸿国际供应链. 保留所有权利.</p>
+    </footer>
+
+    <!-- 内联JavaScript -->
+    <script>
+        // 滚动动画效果
+        function checkFadeIn() {
+            const elements = document.querySelectorAll('.fade-in');
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // 导航菜单高亮
+        function highlightNav() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-menu a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // 事件监听器
+        window.addEventListener('scroll', () => {
+            checkFadeIn();
+            highlightNav();
+        });
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            checkFadeIn();
+            
+            // 添加一些交互效果
+            const serviceCards = document.querySelectorAll('.service-card');
+            serviceCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px) scale(1.02)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+        });
+
+        // 响应式菜单切换（移动端）
+        function toggleMobileMenu() {
+            const nav = document.querySelector('.nav-menu');
+            nav.classList.toggle('active');
+        }
+
+        // 添加移动端菜单按钮（如果需要）
+        // 这里可以根据需要添加汉堡菜单按钮
+    </script>
+</body>
+</html>
