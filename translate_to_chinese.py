@@ -134,6 +134,26 @@ translations = {
     
     'With our industry expertise, global network, and commitment to customer satisfaction, we are a trusted partner in international commodity trading. Choose 香港九鸿供应链管理有限公司 for expertise in iron ore, coal, agricultural commodities, and maritime shipping, and unlock the full potential of global trade.':
     '凭借我们的行业专长、全球网络和对客户满意度的承诺，我们是国际大宗商品贸易中值得信赖的合作伙伴。选择香港九鸿供应链管理有限公司，获取铁矿石、煤炭、农产品和海运方面的专业知识，释放全球贸易的全部潜力。',
+    
+    # === 补充按钮和表单 ===
+    '>      Subscribe': '>      订阅',
+    'Subscribe\n': '订阅\n',
+    'Subscribe\r\n': '订阅\r\n',
+    
+    # === 联系我们页面表单 ===
+    'Enter your name': '请输入您的姓名',
+    'Enter your phone number': '请输入您的电话',
+    'Enter your question': '请输入您的问题',
+    'Your profile and questions': '您的信息和问题',
+    
+    # === 联系我们页面介绍 ===
+    'Thank you for your interest in our services. We are eager to assist you in your international commodity trading needs. Whether you require reliable sourcing, efficient logistics, expert market insights, international letter of credit services, or a comprehensive solution encompassing all aspects, our dedicated team is ready to provide tailored solutions to drive your success. Contact us today to explore how we can collaborate and unlock the full potential of your global trade endeavors.':
+    '感谢您对我们服务的关注。我们渴望帮助您满足国际大宗商品贸易需求。无论您需要可靠的货源、高效的物流、专业的市场洞察、国际信用证服务，还是涵盖所有方面的综合解决方案，我们专业的团队都随时准备提供量身定制的解决方案，助力您的成功。立即联系我们，探索如何合作并释放您全球贸易的全部潜力。',
+    
+    # === 修复乱码字符 ===
+    '锛?': '：',
+    'Tel锛': '电话：',
+    '电子邮件锛歜usiness@theworld9h.com': '电子邮件：business@world9h.com',
 }
 
 # 需要翻译的文件列表
