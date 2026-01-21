@@ -1,0 +1,17 @@
+Encoding Check Report
+================================================================================
+
+Total files scanned: 26
+Files with issues: 11
+
+world9h.com\about.html: Found HTML entity &#20013;&#25991; - 1 occurrences
+world9h.com\contact.html: Found HTML entity &#20013;&#25991; - 1 occurrences
+world9h.com\index.html: Found HTML entity &#20013;&#25991; - 1 occurrences
+world9h.com\Logistics.html: Found HTML entity &#20013;&#25991; - 1 occurrences
+world9h.com\services.html: Found HTML entity &#20013;&#25991; - 1 occurrences
+zh\world9h.com\index.html: Found HTML entity &#20013;&#25991; - 1 occurrences
+world9h.com\4\2\1313559.html: Found HTML entity &#20013;&#25991; - 1 occurrences
+world9h.com\4\2\1334296.html: Found HTML entity &#20013;&#25991; - 1 occurrences
+world9h.com\4\2\1334299.html: Found HTML entity &#20013;&#25991; - 1 occurrences
+world9h.com\4\2\1360287.html: Found HTML entity &#20013;&#25991; - 1 occurrences
+world9h.com\4\2\1360288.html: Found HTML entity &#20013;&#25991; - 1 occurrences
