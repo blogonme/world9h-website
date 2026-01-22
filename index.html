@@ -147,7 +147,132 @@
         src: url("http://i.cdn-static.cn/font/NotoSansCJKsc-Thin.otf");
       }
     </style>
+      <style data-type="one-line-layout">
+      /* 强制父容器不换行 */
+      #_1egv6np1co006 .zz-comp-row {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+      }
+
+      /* 标题列：占据剩余空间，优先展示完整 */
+      #_1egv6np1co007 {
+        flex: 1 1 auto !important;
+        width: auto !important;
+        max-width: 100% !important; /* 移除宽度限制，充分利用空间 */
+        overflow: hidden !important;
+        padding-right: 5px !important; /* 避免文字紧贴菜单 */
+      }
+      
+      /* 头部标题文字：不换行，动态字体 - 稍微调小以适应 */
+      #_1egv6np1co007 .zz-text,
+      #_1egv6np1co007 p,
+      #_1egv6np1co007 span,
+      #_1egv6np1co007 strong {
+        white-space: nowrap !important;
+        font-size: clamp(10px, 1.6vw, 22px) !important; 
+        line-height: normal !important;
+        display: inline-block !important;
+      }
+
+      /* 菜单列：极致压缩 */
+      #_1egv6np1co009 {
+        flex: 0 0 auto !important;
+        width: auto !important;
+        min-width: 0 !important;
+        display: flex !important;
+        justify-content: flex-end !important;
+      }
+      
+      #_1egv6np1co009 .col__wrapper {
+         width: auto !important; 
+      }
+      
+      #_1egv6np1co00a .zz-comp-row {
+         display: flex !important;
+         justify-content: flex-end !important;
+         align-items: center !important;
+         flex-wrap: nowrap !important;
+      }
+
+      /* 导航菜单容器：红色背景 - 极小内边距 */
+      #_1egv6np1co00c {
+        background-color: #e03e2d !important;
+        border-radius: 4px !important;
+        padding: 2px 2px !important; /* 极小内边距 */
+        margin-right: 2px !important;
+        display: inline-block !important;
+        white-space: nowrap !important;
+      }
+
+      /* 菜单列表 Flex 布局 */
+      #_1egv6np1co00c .zz-menu {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      /* 菜单项缩放 - 减小间距 */
+      #_1egv6np1co00c .zz-menu-item {
+        padding: 0 5px !important; /* 更紧凑 */
+        flex: 0 0 auto !important;
+      }
+      
+      /* 菜单字体变小 */
+      #_1egv6np1co00c .zz-menu-item__title span {
+        color: #fff !important;
+        font-weight: 600 !important;
+        font-size: clamp(9px, 1.0vw, 14px) !important; /* 字体调小 */
+        white-space: nowrap !important;
+      }
+
+      /* ---------------------------------------------------- */
+      /* 新增：解决正文被页眉遮挡问题 */
+      .zz-page-body-comp {
+        padding-top: 140px !important; /* 根据页眉高度调整 */
+      }
+      
+      /* 新增：Efficiency 标语强制单行并自适应 */
+      #_1egv6npaso009 p, 
+      #_1egv6npaso009 span,
+      #_1egv6npaso009 strong {
+        white-space: nowrap !important;
+        font-size: clamp(16px, 3.5vw, 60px) !important; /* 字体随宽度自动缩小 */
+        line-height: normal !important;
+        width: 100% !important;
+        display: block !important;
+      }
+      /* ---------------------------------------------------- */
+      
+      /* 移动端适配 */
+      @media (max-width: 768px) {
+        /* 页眉高度可能变小 */
+        .zz-page-body-comp {
+          padding-top: 80px !important;
+        }
+        
+        #_1egv6np1co007 .zz-text span {
+           font-size: clamp(10px, 3vw, 14px) !important;
+        }
+        #_1egv6np1co00c {
+           padding: 1px 2px !important;
+        }
+        #_1egv6np1co00c .zz-menu-item {
+           padding: 0 3px !important;
+        }
+           padding: 0 5px !important;
+        }
+        
+        /* 移动端标语字体继续缩小 */
+        #_1egv6npaso009 p {
+           font-size: clamp(14px, 4vw, 24px) !important;
+        }
+      }
+    </style>
   </head>
+
   <body class="render render-v2" id="render">
     <div data-device="pc" zz-page-width="narrow">
       <div class="zz-page-layout layout2" data-type="page-layout" id="page-2">
