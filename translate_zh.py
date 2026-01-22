@@ -28,9 +28,9 @@ translations = {
     
     # --- Company Name ---
     # Handles multi-line or single-line variations
-    r'>\s*THE NINE INTERNATIONAL SUPPLY\s+CHAIN\s*<': '>香港九鸿供应链管理有限公司<',
-    r'The Nine International Supply Chain': '香港九鸿供应链管理有限公司',
-    r'>\s*The Nine H: International Tamrading\s*<': '>香港九鸿: 国际贸易<',
+    r'>\s*THE NINE INTERNATIONAL SUPPLY\s+CHAIN\s*<': '>九鸿国际供应链管理有限公司<',
+    r'The Nine International Supply Chain': '九鸿国际供应链管理有限公司',
+    r'>\s*The Nine H: International Tamrading\s*<': '>九鸿国际: 国际贸易<',
     
     # --- Slogans & Hero Text ---
     r'>\s*Unlocking Opportunities in the Global Marketplace\s*<': '>开启全球市场新机遇<',
@@ -161,21 +161,21 @@ translations = {
     
     # about.html
     r'At\s+&#39321;&#28207;&#20061;&#40511;&#20379;&#24212;&#38142;&#31649;&#29702;&#26377;&#38480;&#20844;&#21496;,\s+we\s+offer\s+reliable\s+sourcing\s+and\s+efficient\s+logistics\s+services.*?\ ethical\s+practices\.':
-    '在香港九鸿供应链管理有限公司，我们提供可靠的采购和高效的物流服务，以确保无缝和安全的贸易交易。本着以客户为中心的方法，我们优先考虑合规性和诚信，严格遵守国际贸易法规和道德规范。',
+    '在九鸿国际供应链管理有限公司，我们提供可靠的采购和高效的物流服务，以确保无缝和安全的贸易交易。本着以客户为中心的方法，我们优先考虑合规性和诚信，严格遵守国际贸易法规 and 道德规范。',
     
     r'Choose\s+&#39321;&#28207;&#20061;&#40511;&#20379;&#24212;&#38142;&#31649;&#29702;&#26377;&#38480;&#20844;&#21496;\s+for\s+our\s+industry\s+expertise.*?\ utmost\s+professionalism\.':
-    '选择香港九鸿供应链管理有限公司，因为我们拥有行业专长、极具竞争力的价格以及满足您独特需求的定制解决方案。我们是您在复杂的国际贸易中值得信赖的合作伙伴，以极其专业的精神提供可靠的采购、高效的物流和安全的交易。',
+    '选择九鸿国际供应链管理有限公司，因为我们拥有行业专长、极具竞争力的价格以及满足您独特需求的定制解决方案。我们是您在复杂的国际贸易中值得信赖的合作伙伴，以极其专业的精神提供可靠的采购、高效的物流和安全的交易。',
 
     # services.html
     r'At\s+&#39321;&#28207;&#20061;&#40511;&#20379;&#24212;&#38142;&#31649;&#29702;&#26377;&#38480;&#20844;&#21496;,\s+our\s+commitment\s+to\s+efficiency.*?\ global\s+marketplace\.':
-    '在香港九鸿供应链管理有限公司，我们对效率、诚信和繁荣的承诺推动着我们全面的商品贸易服务。我们优先优化供应链，确保交易透明，并建立互惠互利的关系，助力客户在全球市场中取得成功。',
+    '在九鸿国际供应链管理有限公司，我们对效率、诚信和繁荣的承诺推动着我们全面的商品贸易服务。我们优先优化供应链，确保交易透明，并建立互惠互利的关系，助力客户在全球市场中取得成功。',
     
     # index.html (Homepage)
     r'Experience\s+the\s+unrivaled\s+excellence\s+of\s+&#39321;&#28207;&#20061;&#40511;&#20379;&#24212;&#38142;&#31649;&#29702;&#26377;&#38480;&#20844;&#21496;.*?trade\s+facilitation\.':
-    '体验香港九鸿供应链管理有限公司无与伦比的卓越服务。我们为全球大宗商品贸易、国际信用证和备用信用证提供一流的解决方案，为您的业务提供最大的便利、安全和盈利能力。我们尖端的服务确保无缝交易、风险缓解和无与伦比的贸易便利化。',
+    '体验九鸿国际供应链管理有限公司无与伦比的卓越服务。我们为全球大宗商品贸易、国际信用证和备用信用证提供一流的解决方案，为您的业务提供最大的便利、安全和盈利能力。我们尖端的服务确保无缝交易、风险缓解和无与伦比的贸易便利化。',
 
     r'At\s+&#39321;&#28207;&#20061;&#40511;&#20379;&#24212;&#38142;&#31649;&#29702;&#26377;&#38480;&#20844;&#21496;,\s+we\s+excel\s+in\s+international\s+commodity\s+trading.*?\ global\s+trade\.':
-    '在香港九鸿供应链管理有限公司，我们擅长国际大宗商品贸易，采购高质量材料并提供跨行业的无缝解决方案，包括铁矿石、煤炭、农产品和海运。相信我们是您值得信赖的合作伙伴，释放全球贸易的潜力。',
+    '在九鸿国际供应链管理有限公司，我们擅长国际大宗商品贸易，采购高质量材料并提供跨行业的无缝解决方案，包括铁矿石、煤炭、农产品和海运。相信我们是您值得信赖的合作伙伴，释放全球贸易的潜力。',
 
     r'We\s+specialize\s+in\s+international\s+letter\s+of\s+credit\s+services.*?\ with\s+expertise\.':
     '我们专注于国际信用证服务，通过管理开立和管理信用证的复杂性，以专业的知识驾驭国际贸易法规，确保安全高效的贸易交易。',
@@ -206,7 +206,7 @@ translations = {
     '我们的资深专业团队拥有深厚的知识和市场分析专长，使我们能够为客户提供有价值的见解和指导。我们时刻关注市场趋势、供需动态和监管变化，帮助客户做出明智的决策。',
     
     # "Prominent Player" paragraph
-    r'At (?:The Nine H|香港九鸿供应链管理有限公司|The Nine International\s+Supply Chain|The Nine H International Trading Pte\. Ltd\.|香港九鸿供应链管理有限公司 Management Group Holdings Limited\.)[,\s]*we are a prominent player in international commodity trading, offering comprehensive services across various sectors\. With expertise in iron ore, coal, agricultural commodities, and maritime shipping, we provide seamless and professional solutions to meet our clients\' diverse needs\.': '香港九鸿供应链管理有限公司是大宗商品国际贸易领域的知名企业，在各个领域提供全面的服务。凭借在铁矿石、煤炭、农产品和海运方面的专业知识，我们提供无缝且专业的解决方案，以满足客户的多样化需求。',
+    r'At (?:The Nine H|九鸿国际供应链管理有限公司|The Nine International\s+Supply Chain|The Nine H International Trading Pte\. Ltd\.|九鸿国际供应链管理有限公司 Management Group Holdings Limited\.)[,\s]*we are a prominent player in international commodity trading, offering comprehensive services across various sectors\. With expertise in iron ore, coal, agricultural commodities, and maritime shipping, we provide seamless and professional solutions to meet our clients\' diverse needs\.': '九鸿国际供应链管理有限公司是大宗商品国际贸易领域的知名企业，在各个领域提供全面的服务。凭借在铁矿石、煤炭、农产品和海运方面的专业知识，我们提供无缝且专业的解决方案，以满足客户的多样化需求。',
 
 
 
@@ -215,7 +215,7 @@ translations = {
 
 
     # "Prominent Player" paragraph - Retaining this, assuming it might work or needs the HTML tags
-    r'At (?:The Nine H|香港九鸿供应链管理有限公司).*?prominent player.*?diverse needs\.': '香港九鸿供应链管理有限公司是大宗商品国际贸易领域的知名企业，在各个领域提供全面的服务。凭借在铁矿石、煤炭、农产品和海运方面的专业知识，我们提供无缝且专业的解决方案，以满足客户的多样化需求。',
+    r'At (?:The Nine H|九鸿国际供应链管理有限公司).*?prominent player.*?diverse needs\.': '九鸿国际供应链管理有限公司是大宗商品国际贸易领域的知名企业，在各个领域提供全面的服务。凭借在铁矿石、煤炭、农产品和海运方面的专业知识，我们提供无缝且专业的解决方案，以满足客户的多样化需求。',
 
 
     # Typo fix: "业功" (Ye Gong) -> "业务" (Ye Wu)

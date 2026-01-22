@@ -13,8 +13,8 @@ with open('world9h.com/index.html', 'r', encoding='utf-8') as f:
 # 定义替换规则：英文 -> 中文
 replacements = [
     # 标题和公司名
-    ('The Nine International Supply Chain', '香港九鸿供应链管理有限公司'),
-    ('THE NINE INTERNATIONAL SUPPLY CHAIN', '香港九鸿供应链管理有限公司'),
+    ('The Nine International Supply Chain', '九鸿国际供应链管理有限公司'),
+    ('THE NINE INTERNATIONAL SUPPLY CHAIN', '九鸿国际供应链管理有限公司'),
     
     # 菜单项
     ('>HOME<', '>首页<'),
@@ -77,10 +77,10 @@ replacements = [
     
     # 主要介绍内容
     ('Experience the unrivaled excellence of The Nine International Supply Chain(The Nine H International Trading Pte. Ltd. , The Nine International Supply Chain Management Group Holdings Limited.): International Tamrading. We offer the best-in-class solutions for global commodity trading, international letter of credit, and standby letter of credit, providing the utmost convenience, security, and profitability for your business. Our cutting-edge services ensure seamless transactions, risk mitigation, and unparalleled trade facilitation.',
-     '体验香港九鸿供应链管理有限公司（九鸿国际贸易有限公司，香港九鸿供应链管理集团控股有限公司）无与伦比的卓越服务：国际贸易。我们为全球大宗商品贸易、国际信用证和备用信用证提供一流的解决方案，为您的业务带来极致便利、安全和盈利能力。我们的尖端服务确保无缝交易、风险缓释和无与伦比的贸易便利化。'),
+     '体验九鸿国际供应链管理有限公司（九鸿国际贸易有限公司，九鸿国际供应链管理集团控股有限公司）无与伦比的卓越服务：国际贸易。我们为全球大宗商品贸易、国际信用证和备用信用证提供一流的解决方案，为您的业务带来极致便利、安全和盈利能力。我们的尖端服务确保无缝交易、风险缓释和无与伦比的贸易便利化。'),
     
     ('At The Nine International Supply Chain, we are a prominent player in international commodity trading, offering comprehensive services across various sectors. With expertise in iron ore, coal, agricultural commodities, and maritime shipping, we provide seamless and professional solutions to meet our clients\' diverse needs.',
-     '香港九鸿供应链管理有限公司是国际大宗商品贸易领域的知名企业，在各个领域提供全面的服务。凭借在铁矿石、煤炭、农产品和海运方面的专业知识，我们提供无缝且专业的解决方案，以满足客户的多样化需求。'),
+     '九鸿国际供应链管理有限公司是国际大宗商品贸易领域的知名企业，在各个领域提供全面的服务。凭借在铁矿石、煤炭、农产品和海运方面的专业知识，我们提供无缝且专业的解决方案，以满足客户的多样化需求。'),
     
     ('Our iron ore and coal trading division sources high-quality materials from global mines, ensuring compliance with international standards. From bulk shipments to smaller quantities, we prioritize competitive pricing and timely delivery.',
      '我们的铁矿石和煤炭贸易部门从全球矿山采购优质材料，确保符合国际标准。从散货运输到小批量出货，我们优先考虑有竞争力的价格和及时的交付。'),

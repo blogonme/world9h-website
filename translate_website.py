@@ -21,8 +21,8 @@ zh_dir = base_dir / 'zh'
 # Translation mappings
 TRANSLATIONS = {
     # Company name
-    'THE NINE INTERNATIONAL SUPPLY CHAIN': '香港九鸿供应链管理有限公司',
-    'The Nine International Supply Chain': '香港九鸿供应链管理有限公司',
+    'THE NINE INTERNATIONAL SUPPLY CHAIN': '九鸿国际供应链管理有限公司',
+    'The Nine International Supply Chain': '九鸿国际供应链管理有限公司',
     
     # Navigation
     'HOME': '首页',
